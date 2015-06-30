@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hbioss</string>
+    <string name="app_name2">Hbioss</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Dispositivo já registrado.</string>
+    <string name="gcm_registered">Hbioss: dispositivo registrado com sucesso!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">Hbioss: Você tem uma nova mensagem!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Tentaiva de conexão (%1$d/%2$d) para registrar o dispositivo no servidor.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Registrar</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Limpar</string>
+    <string name="options_exit">Sair</string>
+    <string name="btnEnviar">Enviar</string>
+    
+    <string name="label_already_reg">If you are already registered, push Connect button.</string>
+    <string name="label_fullname">Nome:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_register">Registrar</string>
+    <string name="label_connect">Conectar</string>
+    
+    
+    <string name="name_new_contact">Nome do novo contato</string>
+    <string name="new_contact">Novo contato</string>
+    
+    
+    
+    <string name="server_adding_conctact">Tentativa de conexão (%1$d/%2$d).</string>
+    <string name="server_contact_added">Hbioss: contato adicionado!</string>    
+    
+    <string-array name="fruits_array">
+       <item>Apples</item>
+       <item>Apricots</item>
+       <item>Avocado</item>
+       <item>Annona</item>
+       <item>Banana</item>  
+       <item>Bilberry</item>
+       <item>Blackberry</item>
+    </string-array>    
+</resources>

@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#83d5b1"
+    android:contentDescription="teste"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".configuracoes" >
+
+    <ImageView
+        android:id="@+id/ImageMeuPerfil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/iconmeuperfil" />
+
+    <TextView
+        android:id="@+id/btmeuperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageMeuPerfil"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/ImageMeuPerfil"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Meu Perfil"
+        android:textColor="#056837"
+        android:textColorLink="#056837"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ImageConfiguracoes"
+        android:layout_width="800dp"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@+id/ImageMeuPerfil"
+        android:layout_below="@+id/ImageMeuPerfil"
+        android:src="@drawable/faixaconfiguracoes" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="800dp"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@+id/ImageView02"
+        android:layout_below="@+id/ImageView02"
+        android:src="@drawable/faixaconfiguracoes" />
+
+    <TextView
+        android:id="@+id/btcontatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView02"
+        android:layout_alignLeft="@+id/btmeuperfil"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Contatos"
+        android:textColor="#056837"
+        android:textColorLink="#056837"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/ImageConfiguracoes"
+        android:layout_below="@+id/ImageConfiguracoes"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/iconcontatos" />
+
+    <TextView
+        android:id="@+id/btnoticias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btcontatos"
+        android:layout_below="@+id/ImageView01"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Notícias"
+        android:textColor="#056837"
+        android:textColorLink="#056837"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="800dp"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@+id/ImageView01"
+        android:layout_below="@+id/btnoticias"
+        android:src="@drawable/faixaconfiguracoes" />
+
+    <ImageView
+        android:id="@+id/ImageView04"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/btnoticias"
+        android:layout_toLeftOf="@+id/btmeuperfil"
+        android:src="@drawable/iconnoticias" />
+
+    <ImageView
+        android:id="@+id/ImageView08"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_toLeftOf="@+id/btmeuperfil"
+        android:src="@drawable/iconnoticias" />
+
+    <ImageView
+        android:id="@+id/ImageView06"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ImageView05"
+        android:layout_marginTop="38dp"
+        android:layout_toLeftOf="@+id/btmeuperfil"
+        android:src="@drawable/iconfaq" />
+
+    <TextView
+        android:id="@+id/btfaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ImageView07"
+        android:layout_alignLeft="@+id/TextView01"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Faq"
+        android:textColor="#056837"
+        android:textColorLink="#056837"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ImageView07"
+        android:layout_width="800dp"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@+id/ImageView06"
+        android:layout_below="@+id/ImageView06"
+        android:src="@drawable/faixaconfiguracoes" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnoticias"
+        android:layout_below="@+id/ImageView03"
+        android:layout_marginTop="22dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Concursos"
+        android:textColor="#056837"
+        android:textColorLink="#056837"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="800dp"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@+id/ImageView08"
+        android:layout_below="@+id/ImageView08"
+        android:src="@drawable/faixaconfiguracoes" />
+
+</RelativeLayout>

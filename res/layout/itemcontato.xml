@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout onde fica a imagem -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_marginRight="8dp" />
+
+    <!-- layout onde ficam os dois textos -->
+
+    <LinearLayout
+        android:id="@+id/layouttexto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="31.17"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#056837"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#919396"
+            android:textSize="11sp" />
+    </LinearLayout>
+    <!-- layout onde fica o radio group -->
+    <!-- layout onde fica o checkbox -->
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/vistoporultimo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:textColor="#056837"
+            android:textSize="10sp" />
+ <!-- 
+        <Button
+            android:id="@+id/botaoopcoes"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="|" />-->
+    </LinearLayout>
+
+</LinearLayout>
